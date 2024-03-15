@@ -28,7 +28,7 @@
     
 }
 
-.headerContainer ul li a{
+.headerContainer ul li .navLinks{
     text-decoration: none;
     color: white;
     cursor: pointer;
