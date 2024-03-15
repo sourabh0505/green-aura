@@ -1,0 +1,19 @@
+.footerContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #007F73;
+    color: white;
+    width: 100%;
+    min-height: 8rem;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footerContainer .socialmediaLink a{
+    text-decoration: none;
+    color: white;
+}

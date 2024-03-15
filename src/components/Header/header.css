@@ -1,0 +1,49 @@
+.headerContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007F73;
+    padding: 1rem 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.headerContainer h1{
+    color: white;
+    font-family: 'Whisper', sans-serif;
+    font-weight: 500;
+}
+
+.headerContainer ul{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.2rem;
+    
+}
+
+.headerContainer ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.headerContainer ul li:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px){
+    .headerContainer{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .headerContainer ul li{
+        font-size: 1rem;
+    }
+}

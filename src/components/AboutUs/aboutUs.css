@@ -1,0 +1,90 @@
+.aboutUsContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+.profileImage img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: .5rem;
+}
+
+.aboutUsContainer:nth-child(2){
+    align-items: center;
+}
+
+.aboutusContent{
+    text-align: justify;
+    padding: 0 2rem 4rem;
+}
+
+.profileImage{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profileImage .imageDiv{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    }
+
+.profileImage .backgroundDiv{
+    background-color: #EEE7DA;
+    width: 25rem;
+    height: 25rem;
+    border-radius: .5rem;
+}
+
+@media(max-width: 768px){
+    .profileImage{
+        width: 20rem;
+        height: 20rem;
+    }
+    .profileImage img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .profileImage .imageDiv{
+        width: 15rem;
+        height: 15rem;
+        top: 1rem;
+        left: 1rem;
+    }
+    .profileImage .backgroundDiv{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media(max-width: 325px){
+    .profileImage{
+        width: 15rem;
+        height: 15rem;
+    }
+    .profileImage img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .profileImage .imageDiv{
+        width: 12rem;
+        height: 12rem;
+        top: 1rem;
+        left: 1rem;
+    }
+    .profileImage .backgroundDiv{
+        width: 12rem;
+        height: 12rem;
+    }
+}

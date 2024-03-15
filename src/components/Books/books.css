@@ -1,0 +1,81 @@
+.booksContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+}
+
+.booksContainer .booksDiv{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.bookCard{
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    width: 30%;
+    height: auto;
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookContent{
+    flex: 1;
+    padding: 1rem;
+}
+
+.bookContent p:first-child{
+    margin-bottom: 1rem;
+}
+
+.bookContent p:nth-child(2){
+    text-align: justify;
+}
+
+.bookCard .buyButton{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.buyButton .bookBtn{
+    width: 20%;
+    height: 2rem;
+    border-radius: .2rem;
+}
+
+.buyButton .bookBtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.buyButton .bookBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.bookCard img{
+    width: 100%;
+    height: 25rem;
+    border-radius: 8px; 
+}
+
+@media(max-width: 768px){
+    .booksContainer{
+        padding: 1rem;
+    }
+    .booksContainer .booksDiv{
+        flex-flow: column nowrap;
+    }
+    .bookCard{
+        width: 100%;
+    }
+}
