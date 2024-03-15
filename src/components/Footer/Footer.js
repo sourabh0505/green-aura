@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footerContainer">
       <p className="socialmediaLink">
-        <b><a href="https://www.linkedin.com/company/auragreenearth/">Linkedin</a></b>
+        <b><a target="_blank" href="https://www.linkedin.com/company/auragreenearth/">Linkedin</a></b>
       </p>
       <p>
         Mail Id:- <b>greenauraearth@gmail.com</b>
