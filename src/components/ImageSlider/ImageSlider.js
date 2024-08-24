@@ -27,16 +27,16 @@ const ImageSlider = () => {
           <img src="/AllImages/greenaura.jpg" alt="greenaura image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/AllImages/balance.jpg" alt="balance image" />
+          <img src="/AllImages/climate-change-photo-4.png" alt="balance image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/AllImages/margaret.jpg" alt="margaret image" />
+          <img src="/AllImages/climate-change-photo-3.jpg" alt="margaret image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/AllImages/marguerite.jpg" alt="marguerite image" />
+          <img src="/AllImages/climate-change-photo-1.jpg" alt="marguerite image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/AllImages/sunset.jpg" alt="sunset image" />
+          <img src="/AllImages/climate-change-photo-2.jpg" alt="sunset image" />
         </SwiperSlide>
       </Swiper>
     </div>

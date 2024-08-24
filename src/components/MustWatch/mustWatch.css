@@ -1,0 +1,75 @@
+.must-watch-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+}
+
+.must-watch-container h1{
+    padding-left: 2rem;
+    font-weight: 700;
+}
+
+.must-watch-video-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+    padding: 2rem;
+    padding-bottom: 5rem;
+}
+
+.embed-video-div{
+    width: 31%;
+    height: auto;
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iframe-embed{
+    width: 100%;
+    height: 20rem;
+}
+
+.must-watch-info{
+    text-align: justify;
+    padding: 2rem;
+    font-weight: 300;
+}
+
+.must-watch-title{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.must-watch-title b {
+    font-weight: 300;
+    font-size: 1.2rem;  
+}
+
+@media (max-width: 768px) {
+    .must-watch-container {
+        padding: 0 0rem 5rem; 
+    }
+
+    .must-watch-video-container {
+        flex-flow: column nowrap;
+        padding: 1rem;
+    }
+
+    .embed-video-div {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .must-watch-container h1{
+        padding-left: 1rem;
+        margin: 1rem 0;
+    }
+
+    .embed-video-div-6{
+        margin-bottom: 0;
+    }
+}

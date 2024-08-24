@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 import courseAnimation1 from "./renewable-animation.json";
 import courseAnimation2 from "./photovoltaic-animation.json";
 import courseAnimation3 from "./vehicle-animation.json";
+import courseAnimation4 from "./smart-grid-animation.json";
 
 function Courses() {
   return (
@@ -90,6 +91,35 @@ function Courses() {
             </button>
             <button className="quizBtn">
               <a target="_blank" href="https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSesXMoXPdSSE2SMaiHy4iThJjvpC9SkezIuFxIQX1C3C0mgZA/viewform?vc%3D0%26c%3D0%26w%3D1%26flr%3D0%26usp%3Dmail_form_link&source=gmail&ust=1697649062756000&usg=AOvVaw0sxc5HKrle67fuoQWLukaR">
+                Take Quiz
+              </a>
+            </button>
+          </div>
+        </div>
+
+        {/* 4th course */}
+
+        <div className="smartGridCourse">
+          <Lottie
+            className="animatedCourseImage"
+            animationData={courseAnimation4}
+          />
+
+          <p className="courseTitle">
+            <b>Smart Grid And Smart Meter Quiz</b>
+          </p>
+          <p className="courseContent">
+          A smart grid is an advanced electrical system that uses smart meters and digital communication technology to monitor and optimize energy usage, improving efficiency and reliability. Check out this course to...
+          </p>
+
+          <div className="courseButtons">
+            <button className="learnBtn">
+              <a target="_blank" href="https://drive.google.com/file/d/1DiBhUEJoKVKUpFPDipdwobpy9OCKSGqU/view?usp=drivesdk">
+                Learn More
+              </a>
+            </button>
+            <button className="quizBtn">
+              <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdGaYz1CAdeWwa-dy0zLLwbYQQDk1YOuK2XZ7FRhVr1dua66w/viewform?usp=sf_link">
                 Take Quiz
               </a>
             </button>

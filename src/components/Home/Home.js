@@ -4,6 +4,7 @@ import './home.css'
 import Slogan from '../Slogan/Slogan'
 import AboutClub from '../AboutClub/AboutClub'
 import Courses from '../Courses/Courses'
+import MustWatch from '../MustWatch/MustWatch'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <Slogan/>
         <AboutClub/>
         <Courses/>
+        <MustWatch/>
     </div>
   )
 }
